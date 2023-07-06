@@ -1,0 +1,114 @@
+.headeriner{
+    position: fixed;
+    height: 98px;
+    width: 155px;
+    overflow: hidden;
+    max-width: 1060px;
+    border-radius: 100px;
+    color: #000;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: -100px;
+    z-index: 15;
+    filter: drop-shadow(0 1px 10px rgba(0,0,0,.25));
+    left: 0;
+    right: 0;
+    transition: 500ms ease-in-out;
+    margin: auto;
+}
+.headerActiv{
+    top: 10px;
+
+}
+.headeriner:hover{
+    height: 98px;
+    width: 100%;
+    max-width: 1060px;
+    transition: 500ms ease-in-out;
+}
+.headeriner:hover .headerBurger{
+    opacity: 0;
+    transition: 300ms;
+}
+.headeriner:hover .headerLinks{
+    opacity: 1;
+    transition: 300ms;
+    transition-delay: 500ms;
+}
+.headeriner:hover .headerLogo{
+    margin-left: 0px;
+    transition: 500ms ease-in-out;
+}
+.headeriner:hover .heaerBtn{
+    opacity: 1;
+    transition: 300ms;
+    transition-delay: 500ms;
+}
+.headerLogo{
+    padding: 5px;
+    height: 89px;
+    margin-left: -54px;
+    transition: 500ms ease-in-out;
+}
+.logoImg{
+    width: 89px;
+}
+.headerLeft{
+    width: 39%;
+    display: flex;
+    justify-content: space-between;
+}
+.headerRight{
+    width: 39%;
+    align-items: center;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.headerLinkFirst{
+    font-weight: 500;
+    font-size: 20px;
+    width: 250px;
+    text-align: center;
+}
+.headerLinks{
+    opacity: 0;
+    font-weight: 500;
+    font-size: 20px;
+    position: relative;
+}
+.headerLinks:before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    background: currentColor;
+    transition: transform 0.25s ease-out;
+}
+.headerLinks:hover:before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+  
+.heaerBtn{
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    opacity: 0;
+    background: #004B90;
+    border-radius: 30px;
+    padding: 5px 30px;
+    margin-left: 10px;
+}
+.headerBurger{
+    transition: 300ms;
+    position: absolute;
+    right: 0;
+    margin-right: 18px;
+}

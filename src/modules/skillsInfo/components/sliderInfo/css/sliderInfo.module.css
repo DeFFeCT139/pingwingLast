@@ -1,0 +1,44 @@
+.sliderInfo{
+    margin-top: 100px;
+}
+.sliderInfoDublName{
+    font-weight: 900;
+    font-size: 60px;
+    color: #FFFFFF;
+    opacity: 0.1;
+    position: absolute;
+}
+.sliderInfoName{
+    font-weight: 400;
+    font-size: 60px;
+}
+.sliderInfoInner{
+    padding: 10px 0px 0px 30px;
+    display: flex;
+    position: relative;
+    width: calc(100% - 30px);
+}
+.sliderInfoDecs{
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+}
+.sliderInfoleft{
+    max-width: 654px;
+}
+.sliderInforight{
+    position: absolute;
+    right: 0;
+    top: 80px;
+    text-align: right;
+}
+.sliderInfoImg{
+    width: 100%;
+}
+.sliderInfoPluses{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 550px;
+    margin-top: 30px;
+}

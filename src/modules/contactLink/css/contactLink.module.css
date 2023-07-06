@@ -1,0 +1,10 @@
+.contactlinkItems{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.contactlinkMail{
+    font-size: 28px;
+    margin-top: 30px;
+    text-align: center;
+}

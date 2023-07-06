@@ -1,0 +1,10 @@
+.sliderInfoblock{
+    width: 259px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #00000046;
+    border-radius: 15px;
+    margin-top: 20px;
+}

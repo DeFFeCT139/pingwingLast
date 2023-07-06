@@ -1,0 +1,12 @@
+.titlePageTextBtn{
+    text-align: center;
+}
+.titlePage{
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 80px;
+}
+.descPage{
+    font-weight: 300;
+    font-size: 30px;
+}

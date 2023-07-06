@@ -1,0 +1,184 @@
+.myTeamItemBackFon{
+  width: 300px;
+  border: 3px solid #fff;
+  border-radius: 30px;
+  height: 300px;
+  background-image: url('../img/den/Rectangle\ 82.svg');
+}
+.myTeamItemInner{
+  text-align: left;
+  position: relative;
+  transform: rotate(-45deg);
+  width: 500px;
+  height: auto;
+  overflow: hidden;
+  border-radius: 30px;
+}
+.myTeamItemItem{
+  position: absolute;
+  transform: rotate(45deg);
+}
+.den> .myTeamItemItem{
+  top: -40px;
+  left: -40px;
+  animation: itemAnime3 2s infinite;
+  animation-play-state: paused;
+}
+.vag> .myTeamItemItem{
+  top: -70px;
+  left: -75px;
+  animation: itemAnime 2s infinite;
+  animation-play-state: paused;
+}
+.oli> .myTeamItemItem{
+  top: -65px;
+  left: -85px;
+  animation: itemAnime2 2s infinite;
+  animation-play-state: paused;
+}
+@keyframes itemAnime {
+  0%{
+      margin-top: 0px;
+      margin-left: 0px;
+  }
+  20%{
+      margin-top: -2px;
+      margin-left: -2px;
+  }
+  40%{
+      margin-top: 0px;
+      margin-left: 2px;
+  }
+  60%{
+      margin-top: 2px;
+      margin-left: 0px;
+  }
+  80%{
+      margin-top: -2px;
+      margin-left: -2px;
+  }
+  100%{
+      margin-top: 0px;
+      margin-left: 0px;
+  }
+}
+@keyframes itemAnime2 {
+  0%{
+      margin-top: 0px;
+      margin-left: 0px;
+  }
+  20%{
+      margin-top: 0px;
+      margin-left: 2px;
+  }
+  40%{
+      margin-top: -2px;
+      margin-left: -2px;
+  }
+  60%{
+      margin-top: 0px;
+      margin-left: 2px;
+  }
+  80%{
+      margin-top: 2px;
+      margin-left: 0px;
+  }
+  100%{
+      margin-top: -2px;
+      margin-left: -2px;
+  }
+}
+@keyframes itemAnime3 {
+  0%{
+      margin-top: 0px;
+      margin-left: 0px;
+  }
+  20%{
+      margin-top: -2px;
+      margin-left: -2px;
+  }
+  40%{
+      margin-top: 0px;
+      margin-left: -2px;
+  }
+  60%{
+      margin-top: 2px;
+      margin-left: 0px;
+  }
+  80%{
+      margin-top: 2px;
+      margin-left: 2px;
+  }
+  100%{
+      margin-top: 0px;
+      margin-left: 0px;
+  }
+}
+.myTeamItems{
+  padding-top: 25px;
+  display: flex;  
+  background-image: url('../img/Group\ 43.svg');
+  background-repeat: no-repeat;
+  background-size: 99%;
+  background-position:center 149px;
+  width: 100%;
+  justify-content: right;
+}
+.myTeam{
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+.vag{
+  background-image: url('../img/vag/Rectangle\ 81.svg');
+}
+.oli{
+  background-image: url('../img/oli/Rectangle\ 81.svg');
+}
+.myTeamItemBackFonBorder{
+  bottom: 0;
+  left: 0;
+  border-bottom: 3px solid #fff;
+  border-left: 3px solid #fff;
+  width: 300px;
+  border-radius: 30px;
+  height: 300px;
+  position: absolute;
+}
+.myTeamItemOli{
+  margin-top: -11px;
+}
+.myTeamItem{
+  width: 415px;
+  margin-right: 122px;
+}
+.myTeamItemDen{
+  margin-top: 6px;
+  margin-right: 0px;
+}
+.myTeamItemInfo{
+  margin-top: 150px;
+  width: 415px;
+  text-align: center;
+}
+.myTeamItemInfoTitle{
+  font-weight: 500;
+  font-size: 40px;
+}
+.myTeamItemInfoDesc{
+  font-weight: 400;
+  height: 64px;
+  font-size: 26px;
+}
+.itemAnime{
+  animation-play-state: running !important;
+}
+.myTeamSliderItem{
+  transition: 1.25s cubic-bezier(.2, .6, 0, 1) !important;
+  min-width: 1490px !important;
+  width: 100% !important;
+  height: 100vh;
+}
+.fackeBlock{
+  width: 2270px;
+}
